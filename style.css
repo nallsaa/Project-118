@@ -1,0 +1,52 @@
+body {
+    background-color:cornflowerblue
+}
+
+h1 {
+    color:darkslateblue;
+    background-color:beige
+}
+
+show-sketch {
+float:right
+}
+
+@keyframes hello{
+    from {box-shadow: 1px 1px 38px grey}
+    to{box-shadow: 1px 1px 38px white}
+}
+canvas {
+border:solid 5px;
+border-radius: 10px;
+animation-name: hello;
+animation-duration: 4s;
+margin-top:130px;
+animation-iteration-count:infinite
+}
+
+p {
+    padding:10px;
+    font-size:25px
+}
+
+canvas {
+    background-color:white;
+    width:350;
+    height:350;
+    border:5px solid;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px gray;
+    box-shadow:1px 1px 38px #ffffff;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+#timer_span{
+    font-size:20px;
+    float:right;
+}
+
+#score_span{
+    font-size:20px;
+}
